@@ -1,6 +1,7 @@
 nav {
   width: 100%;
-  background-color: #0b98de;
+  background-color: white;
+  overflow: hidden;
 }
 nav a {
   display: block;
@@ -8,10 +9,9 @@ nav a {
 /*We're just setting up fonts settings here*/
   font-family: sans-serif;
   font-size: 9px;
-  color: white;
+  color: black;
 /*Box Method Test AKA handicap*/
-  background-color: #17b0cf;
-  border: 1px solid #000;
+  background-color: white;
 
  /*Padding Our Box*/
   padding-top: 20px;
@@ -27,7 +27,6 @@ nav a {
 font-family: 'Hind', sans-serif;
 font-size: 30px;
 letter-spacing: -2px;
-text-shadow: 1px 1px 2px #c4c4c4;
 /*box*/
 padding-left: 20px;
 padding-right: 40px;
