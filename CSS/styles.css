@@ -17,12 +17,14 @@ body {
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #111;
+  font: Georgia
+  background-color: #F0F8FF;
 }
 
 /* Control the right side */
 .right {
   right: 0;
+  font: Georgia
   background-color: red;
 }
 
@@ -38,7 +40,6 @@ body {
 /* Style the image inside the centered container, if needed */
 .centered img {
   width: 150px;
-  border-radius: 50%;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
