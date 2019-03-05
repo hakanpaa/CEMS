@@ -5,10 +5,10 @@ nav {
 }
 nav a {
   display: block;
-  float: left;
+  float: middle;
 /*We're just setting up fonts settings here*/
   font-family: sans-serif;
-  font-size: 9px;
+  font-size: 10px;
   color: black;
 /*Box Method Test AKA handicap*/
   background-color: white;
@@ -25,7 +25,7 @@ nav a {
 #logo {
 /*font*/
 font-family: 'Hind', sans-serif;
-font-size: 30px;
+font-size: 10px;
 letter-spacing: -2px;
 /*box*/
 padding-left: 20px;
