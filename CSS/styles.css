@@ -65,7 +65,7 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font: Georgia;
 }
 
 .hero {
@@ -92,7 +92,7 @@ body {
 .hero h1 {
     /* Text styles */
     font-size: 5em;
-
+    color: white;
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
@@ -101,7 +101,7 @@ body {
 .hero .btn {
     /* Positioning and sizing */
     display: block;
-    width: 150px;
+    width: 170px;
 
     /* Padding and margins */
     padding: 1em;
@@ -112,7 +112,8 @@ body {
     /* Text styles */
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
+    font: Georgia
+    font-size: 1em;
 
     /* Border styles */
     border: 3px solid white;
