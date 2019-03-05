@@ -101,7 +101,7 @@ body {
 .hero .btn {
     /* Positioning and sizing */
     display: block;
-    width: 100px;
+    width: 150px;
 
     /* Padding and margins */
     padding: 1em;
@@ -112,10 +112,10 @@ body {
     /* Text styles */
     color: white;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
 
     /* Border styles */
-    border: 3px solid black;
+    border: 3px solid white;
 }
 
 .boxed {
