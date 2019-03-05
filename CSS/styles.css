@@ -1,3 +1,12 @@
+/* fit background to screen */
+html {
+  background: url(https://data.whicdn.com/images/312266029/large.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
