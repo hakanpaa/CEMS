@@ -5,7 +5,7 @@ nav {
 }
 nav a {
   display: block;
-  float: middle;
+  float: left;
 /*We're just setting up fonts settings here*/
   font-family: sans-serif;
   font-size: 10px;
@@ -25,7 +25,7 @@ nav a {
 #logo {
 /*font*/
 font-family: 'Hind', sans-serif;
-font-size: 10px;
+font-size: 20px;
 letter-spacing: -2px;
 /*box*/
 padding-left: 20px;
