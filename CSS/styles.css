@@ -1,45 +1,18 @@
 body {
-  font-family: Arial;
+  font: Georgia;
   color: white;
 }
 
-/* Split the screen in half */
-.split {
-  height: 100%;
+.column {
+  float: left;
   width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
 }
 
-/* Control the left side */
-.left {
-  left: 0;
-  font: Georgia
-  background-color: #F0F8FF;
-}
-
-/* Control the right side */
-.right {
-  right: 0;
-  font: Georgia
-  background-color: red;
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
