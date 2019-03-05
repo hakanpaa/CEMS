@@ -117,3 +117,7 @@ body {
     /* Border styles */
     border: 3px solid black;
 }
+
+.boxed {
+  border: 5px solid white ;
+}
