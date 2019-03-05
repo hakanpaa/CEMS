@@ -1,61 +1,39 @@
-body {
-    margin: 0;
-    font: Georgia;
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-.hero {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Text styles */
-    text-align: center;
-
-    /* Background styles */
-        background-image: url(https://memegene.net/sites/default/files/wallpaper/dirt-road-clipart/405459/dirt-road-clipart-mountain-road-405459-3594060.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
 }
 
-.hero h2 {
-    /* Text styles */
-    font-size: 2.5em;
-    color: white;
-    /* Margins */
-    margin-top: 0;
-    margin-bottom: 0.5em;
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
 }
 
-.hero .btn {
-    /* Positioning and sizing */
-    display: block;
-    width: 170px;
-
-    /* Padding and margins */
-    padding: 1em;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-
-    /* Text styles */
-    color: white;
-    text-decoration: none;
-    font: Georgia
-    font-size: 2em;
-
-    /* Border styles */
-    border: 3px solid white;
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.boxed {
-  border: 30px solid white ;
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
