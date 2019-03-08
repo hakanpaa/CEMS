@@ -1,1 +1,6 @@
-
+footer {
+  padding: 50px;
+  color: white;
+  background-color: #1B2631;
+  display: block;
+}
