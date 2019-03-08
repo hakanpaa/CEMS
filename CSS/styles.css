@@ -11,11 +11,17 @@ footer {
     width: "100%"
 }
 
-.content a {
-    position:absolute;
-    color: white;
-    font-size: 20px;
-    font-style: normal;
-    bottom:300px;
-    left:100px;
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 150px;
+  width: 300px;
+  color: #1B2631;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
