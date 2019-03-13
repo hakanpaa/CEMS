@@ -12,6 +12,12 @@ footer {
   width: "100%"
 }
 
+IMG#about {
+  height: auto;
+  display: block;
+  max-height: 30vw;
+}
+
 IMG.header {
   height: 500px;
 }
