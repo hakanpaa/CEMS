@@ -92,3 +92,8 @@ IMG.rightstory {
   padding-left: 20px;
   padding-right: 10px;
 }
+
+.carouselExampleControls {
+  margin: 0 auto;
+  height: 500px;
+}
