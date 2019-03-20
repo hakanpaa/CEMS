@@ -17,7 +17,6 @@ footer {
 
 .whitelink:hover{
   color: white;
-  font-weight: bold;
 }
 
 .greylink {
@@ -27,7 +26,6 @@ footer {
 
 .greylink:hover {
   color: black;
-  font-weight: bold;
 }
 
 .content{
