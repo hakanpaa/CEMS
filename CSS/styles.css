@@ -1,0 +1,99 @@
+footer {
+  padding: 50px;
+  height: 200px;
+  color: white;
+  background-color: #1B2631;
+  display: block;
+}
+
+.content{
+  display:inline-block;
+  position:relative;
+  width: "100%"
+}
+
+IMG#about {
+  height: auto;
+  display: block;
+  max-height: 30vw;
+}
+
+IMG.header {
+  height: 500px;
+}
+
+.text-header {
+  position: absolute;
+  bottom: 250px;
+  left: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 150px;
+  width: 400px;
+  color: #1B2631;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 150px;
+  width: 300px;
+  color: #1B2631;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+IMG.story {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: auto;
+  height: 250px;
+  width: 175px;
+}
+
+IMG.rightstory {
+  height: 440px;
+  width: 100%;
+
+}
+
+#leftstory {
+  background-color: #f2f2f2;
+  height: 440px;
+  width: "100%";
+  text-align: center;
+}
+
+#rightstory {
+  height: 440px;
+  width: "100%"
+}
+
+#contact {
+  padding-right: 40px;
+}
+
+#social {
+  background-color: lightgray;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.carouselExampleControls {
+  margin: 0 auto;
+  height: 500px;
+}
