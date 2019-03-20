@@ -6,6 +6,15 @@ footer {
   display: block;
 }
 
+.whitelink {
+  color: white;
+}
+
+.whitelink:hover{
+  color: white;
+}
+
+
 .content{
   display:inline-block;
   position:relative;
