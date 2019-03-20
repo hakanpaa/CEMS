@@ -44,7 +44,7 @@ IMG.header {
 }
 
 .text-header {
-  position: absolute;
+  position: relative;
   bottom: 250px;
   left: 100px;
   background-color: rgba(255, 255, 255, 0.7);
