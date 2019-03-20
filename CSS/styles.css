@@ -28,13 +28,14 @@ IMG.header {
   left: 100px;
   background-color: rgba(255, 255, 255, 0.7);
   height: 150px;
-  width: 300px;
+  width: 350px;
   color: #1B2631;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 
 /* Bottom right text */
 .text-block {
@@ -90,4 +91,9 @@ IMG.rightstory {
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 10px;
+}
+
+.carouselExampleControls {
+  margin: 0 auto;
+  height: 500px;
 }
