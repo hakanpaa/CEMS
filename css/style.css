@@ -12,12 +12,10 @@ footer {
 
 .whitelink {
   color: white;
-  font-weight: bold;
 }
 
 .whitelink:hover{
   color: white;
-  font-weight: bold;
 }
 
 .greylink {
@@ -27,7 +25,6 @@ footer {
 
 .greylink:hover {
   color: black;
-  font-weight: bold;
 }
 
 .content{
