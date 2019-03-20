@@ -6,6 +6,10 @@ footer {
   display: block;
 }
 
+.modal-dialog {
+  color: black;
+}
+
 .content{
   display:inline-block;
   position:relative;
