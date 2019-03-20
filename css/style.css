@@ -12,17 +12,19 @@ footer {
 
 .whitelink {
   color: white;
-  font-weight: bold;
 }
 
 .whitelink:hover{
   color: white;
-  font-weight: bold;
 }
 
 .greylink {
   color: black;
   font-weight: bold;
+}
+
+.greylink:hover {
+  color: black;
 }
 
 .content{
@@ -115,4 +117,9 @@ IMG.rightstory {
 .carouselExampleControls {
   margin: 0 auto;
   height: 500px;
+}
+
+.container {
+  text-align: center;
+  
 }
