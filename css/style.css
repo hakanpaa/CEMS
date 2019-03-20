@@ -23,6 +23,10 @@ footer {
   font-weight: bold;
 }
 
+.greylink:hover {
+  color: black;
+}
+
 .content{
   display:inline-block;
   position:relative;
