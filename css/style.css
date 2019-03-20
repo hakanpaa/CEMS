@@ -10,6 +10,17 @@ footer {
   color: black;
 }
 
+.whitelink {
+  color: white;
+}
+
+.whitelink:hover{
+  color: white;
+}
+
+.greylink:hover {
+  color: black;
+}
 
 .content{
   display:inline-block;
